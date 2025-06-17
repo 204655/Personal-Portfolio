@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1d1d1d;
+  color: #eee;
+  
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  background: url('Adam.png') no-repeat bottom center / cover;
+}
+
+.sidebar {
+  flex: 1 1 300px;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.profile-img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.contact-info li {
+  margin: 0.5rem 0;
+  list-style: none;
+}
+
+.content {
+  flex: 2 1 600px;
+  padding: 2rem;
+}
+
+.about {
+  margin-bottom: 2rem;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.column {
+  flex: 1 1 250px;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .columns {
+    flex-direction: column;
+  }
+}
