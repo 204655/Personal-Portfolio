@@ -6,16 +6,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #1d1d1d;
-  color: #eee;
-  
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   min-height: 100vh;
-  background: url('Adam.png') no-repeat bottom center / cover;
 }
 
 .sidebar {
